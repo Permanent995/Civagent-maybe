@@ -18,6 +18,7 @@
 
 | 路径 | 内容 |
 |------|------|
+| `game/` | 修改过的 Unciv 游戏源码（tag `v0.2.1`）：CivAgent 接入、派系平衡、无头训练场启动器 |
 | `deployment/ai/agent_api.py` | 大脑 HTTP 服务（默认 `127.0.0.1:2335`）：决策、对话、记忆、信任 |
 | `civagent/utils/` | 模型路由、本地服务探测、jevos 决策闸门、信任/记忆、意图模型 |
 | `civagent/mcp_server.py` | 把受白名单约束的控制台能力暴露给 MCP 客户端 |
@@ -30,8 +31,8 @@
 ## 快速开始（Windows）
 
 1. **下载游戏**：Releases 里的 `Unciv-SongDynasty-v0.3alpha-win64.zip`，解压到任意目录
-   （解压后运行 `Unciv-SongDynasty.exe`）。对应游戏源码在同一 Release 的
-   `Unciv-Source-v0.2.1-src.zip`（GPL 要求的对应源码）。APK 暂未提供。
+   （解压后运行 `Unciv-SongDynasty.exe`）。对应游戏源码在仓库的 `game/` 目录，
+   同一 Release 也附了 `Unciv-Source-v0.2.1-src.zip`（GPL 要求的对应源码）。APK 暂未提供。
 2. **准备大脑**（需要 Python 3.12）：
    ```bash
    python -m venv .venv && .venv\Scripts\activate
@@ -51,6 +52,23 @@
    在**该席位的下一回合**执行；针对你的动作会先弹确认框。
 
 > 本版本全程本地运行：对话与决策只发往**你自己配置的模型服务**，不上传 Fuxi 的服务器。
+
+## 从源码构建游戏
+
+`game/` 是修改过的 Unciv 源码（对应 Release 里的 Windows 包，tag `v0.2.1`）。需要 JDK 17：
+
+```bash
+cd game
+cmd.exe //c gradlew.bat desktop:dist     # Windows；macOS/Linux 用 ./gradlew desktop:dist
+# → game/desktop/build/libs/Unciv.jar
+```
+
+Windows 自包含包另用 jpackage 17 打包（运行库 + 该 jar），打包脚本未入库；
+发布包里的 `app/.jpackage.xml` 是 jpackage 生成的配置。
+
+改动集中在：`core/src/com/unciv/logic/civagent/`（网关、回合钩子、观察切片、意图执行）、
+`desktop/src/com/unciv/app/desktop/ArenaLauncher.kt`（无头训练场），
+以及派系平衡相关的参数、顶栏与设置项。
 
 ## 本地模型
 
@@ -108,8 +126,8 @@ python -m pytest tests/ -q
 
 以 **GPL-3.0** 发布，见 [`LICENSE`](LICENSE)。代码源自
 [fuxiAIlab/CivAgent](https://github.com/fuxiAIlab/CivAgent)（MPL-2.0）的部分仍可按 MPL-2.0 获取，
-见 [`LICENSE-MPL-2.0`](LICENSE-MPL-2.0)。Windows 发布包对应的游戏源码见 Releases 的
-`Unciv-Source-v0.2.1-src.zip`。
+见 [`LICENSE-MPL-2.0`](LICENSE-MPL-2.0)。`game/` 是基于 [Unciv](https://github.com/yairm210/Unciv)（GPL-3.0）
+的修改版源码，同样以 GPL-3.0 提供。
 
 致谢：[Unciv](https://github.com/yairm210/Unciv)（游戏）、
 [fuxiAIlab/CivAgent](https://github.com/fuxiAIlab/CivAgent)（原始 CivAgent）、
