@@ -30,7 +30,8 @@
 ## 快速开始（Windows）
 
 1. **下载游戏**：Releases 里的 `Unciv-SongDynasty-v0.3alpha-win64.zip`，解压到任意目录
-   （解压后运行 `Unciv-SongDynasty.exe`）。APK 暂未提供。
+   （解压后运行 `Unciv-SongDynasty.exe`）。对应游戏源码在同一 Release 的
+   `Unciv-Source-v0.2.1-src.zip`（GPL 要求的对应源码）。APK 暂未提供。
 2. **准备大脑**（需要 Python 3.12）：
    ```bash
    python -m venv .venv && .venv\Scripts\activate
@@ -107,7 +108,8 @@ python -m pytest tests/ -q
 
 以 **GPL-3.0** 发布，见 [`LICENSE`](LICENSE)。代码源自
 [fuxiAIlab/CivAgent](https://github.com/fuxiAIlab/CivAgent)（MPL-2.0）的部分仍可按 MPL-2.0 获取，
-见 [`LICENSE-MPL-2.0`](LICENSE-MPL-2.0)。
+见 [`LICENSE-MPL-2.0`](LICENSE-MPL-2.0)。Windows 发布包对应的游戏源码见 Releases 的
+`Unciv-Source-v0.2.1-src.zip`。
 
 致谢：[Unciv](https://github.com/yairm210/Unciv)（游戏）、
 [fuxiAIlab/CivAgent](https://github.com/fuxiAIlab/CivAgent)（原始 CivAgent）、
