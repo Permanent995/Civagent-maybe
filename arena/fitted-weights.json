@@ -1,0 +1,72 @@
+{
+  "weights": {
+    "population": 2.6254,
+    "cities": 2.6359,
+    "militaryMight": -0.027,
+    "wonders": 0.1528,
+    "techs": -0.0851,
+    "cultureStored": 0.3941,
+    "faith": 0.1067
+  },
+  "hand": {
+    "population": 1.0087,
+    "cities": 1.7846,
+    "militaryMight": 1.4815,
+    "wonders": 20.0,
+    "techs": 3.7565,
+    "cultureStored": 0.1101,
+    "faith": 0.2237,
+    "engineScore": 0.3066
+  },
+  "validation": {
+    "hand": {
+      "accuracy": 66.7,
+      "folds": 60,
+      "spearman": 0.858
+    },
+    "equal": {
+      "accuracy": 70.0,
+      "folds": 60,
+      "spearman": 0.816
+    },
+    "fitted": {
+      "accuracy": 70.3,
+      "folds": 60,
+      "spearman": 0.0
+    },
+    "fittedNoPrior": {
+      "accuracy": 70.3,
+      "folds": 60,
+      "spearman": 0.0
+    }
+  },
+  "samples": 360,
+  "games": 60,
+  "label": "末回合存活且城数最多者",
+  "factors": [
+    "population",
+    "cities",
+    "militaryMight",
+    "wonders",
+    "techs",
+    "cultureStored",
+    "faith"
+  ],
+  "features": [
+    "population",
+    "cities",
+    "militaryMight",
+    "wonders",
+    "techs",
+    "cultureStored",
+    "faith",
+    "priorScore"
+  ],
+  "prior": {
+    "path": "arena\\archive\\prior-before-20260915.json",
+    "nations": 39,
+    "weight": 0.1,
+    "coefficient": -0.2185
+  },
+  "l2": 1.0
+}

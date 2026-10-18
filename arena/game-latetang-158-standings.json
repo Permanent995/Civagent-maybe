@@ -1,0 +1,150 @@
+{
+  "Arabia": {
+    "cities": 12,
+    "population": 265,
+    "wonders": 14,
+    "techs": 60,
+    "militaryUnits": 62,
+    "militaryMight": 2826,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 31136,
+    "alive": true
+  },
+  "The Maya": {
+    "cities": 15,
+    "population": 216,
+    "wonders": 2,
+    "techs": 55,
+    "militaryUnits": 75,
+    "militaryMight": 1699,
+    "capturedCities": 1,
+    "conquestFrom": [
+      "Arabia"
+    ],
+    "power": 19118,
+    "alive": true
+  },
+  "Korea": {
+    "cities": 19,
+    "population": 202,
+    "wonders": 0,
+    "techs": 47,
+    "militaryUnits": 59,
+    "militaryMight": 1504,
+    "capturedCities": 1,
+    "conquestFrom": [
+      "Late Tang"
+    ],
+    "power": 16996,
+    "alive": true
+  },
+  "India": {
+    "cities": 9,
+    "population": 131,
+    "wonders": 3,
+    "techs": 48,
+    "militaryUnits": 69,
+    "militaryMight": 1382,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 15222,
+    "alive": true
+  },
+  "Carthage": {
+    "cities": 12,
+    "population": 179,
+    "wonders": 2,
+    "techs": 48,
+    "militaryUnits": 64,
+    "militaryMight": 1217,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 13950,
+    "alive": true
+  },
+  "Hong Kong": {
+    "cities": 1,
+    "population": 17,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 15,
+    "militaryMight": 302,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 3364,
+    "alive": true
+  },
+  "Sidon": {
+    "cities": 1,
+    "population": 18,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 6,
+    "militaryMight": 146,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 1812,
+    "alive": true
+  },
+  "Prague": {
+    "cities": 1,
+    "population": 14,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 8,
+    "militaryMight": 138,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 1700,
+    "alive": true
+  },
+  "Quebec City": {
+    "cities": 1,
+    "population": 16,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 6,
+    "militaryMight": 116,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 1496,
+    "alive": true
+  },
+  "Brussels": {
+    "cities": 1,
+    "population": 15,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 7,
+    "militaryMight": 115,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 1478,
+    "alive": true
+  },
+  "Kabul": {
+    "cities": 1,
+    "population": 11,
+    "wonders": 0,
+    "techs": 50,
+    "militaryUnits": 6,
+    "militaryMight": 93,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 1226,
+    "alive": true
+  },
+  "Late Tang": {
+    "cities": 0,
+    "population": 0,
+    "wonders": 0,
+    "techs": 31,
+    "militaryUnits": 0,
+    "militaryMight": 0,
+    "capturedCities": 0,
+    "conquestFrom": [],
+    "power": 124,
+    "alive": false
+  }
+}

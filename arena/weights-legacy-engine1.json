@@ -1,0 +1,15 @@
+{
+  "_what": "2026-09-14 第三版权重（军力 60% / 人口 12% / 科技 12% / 文化 6% / 奇观 5% / 信仰 3% / 引擎 1% / 城市 1%）",
+  "_why": "本版把 engineScore 从 1% 提到 10%（用户要求'引擎分数提高'），其余占比相应收缩；要复现提权之前的榜用这套。",
+  "_usage": "python arena/report.py --weights arena/weights-legacy-engine1.json",
+  "weights": {
+    "population": 1.2105,
+    "cities": 1.4277,
+    "militaryMight": 1.1852,
+    "wonders": 20.0,
+    "techs": 4.5078,
+    "cultureStored": 0.1057,
+    "faith": 0.1342,
+    "engineScore": 0.0245
+  }
+}

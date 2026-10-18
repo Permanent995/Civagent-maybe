@@ -1,0 +1,7 @@
+archivedAt=2026-09-12T22:27:19
+deletedSaveFiles=78
+bytesFreed≈7154508
+liveIndexCleared=yes
+liveLogsMoved=yes
+keptInArena=t0-*-ranking.json,slots-64x64.json,spawn-report.json,code
+priorWeight=0.1 via archive/t0-wrap-legacy/conclusions.json

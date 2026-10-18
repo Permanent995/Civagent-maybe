@@ -1,0 +1,15 @@
+{
+  "_what": "2026-09-14 第三版之前的权重（军力 15 / 奇观 20 / 科技 14 / 文化 .5 / 信仰 .5 / 引擎 .5 / 人口 8 / 城市 8）",
+  "_why": "那一版实测军力占 80.2%；现在改为按目标占比反解的新权重（军力 60%）。要复现当时的榜用这套。",
+  "_usage": "python arena/report.py --weights arena/weights-legacy-mil15.json",
+  "weights": {
+    "population": 8.0,
+    "cities": 8.0,
+    "militaryMight": 15.0,
+    "wonders": 20.0,
+    "techs": 14.0,
+    "cultureStored": 0.5,
+    "faith": 0.5,
+    "engineScore": 0.5
+  }
+}

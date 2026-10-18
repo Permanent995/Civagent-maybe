@@ -1,0 +1,80 @@
+{
+  "gameId_note": "北宋 201 回合皇帝难度，纯离线（无大脑）",
+  "caveat": "原存档已被游戏自动轮换删除；军力明细（单位强度）未能在删除前提取，power 为去军力项",
+  "standings": {
+    "Sheng Tang": {
+      "cities": 41,
+      "population": 771,
+      "techs": 77,
+      "policies": 31,
+      "militaryUnits": 78,
+      "capturedCities": 31,
+      "conquestFrom": [
+        "Babylon",
+        "Northern Song",
+        "Sweden"
+      ],
+      "power_no_military": 9322,
+      "note": "含玩家北宋 6 城（征服了玩家）"
+    },
+    "Spain": {
+      "cities": 22,
+      "population": 281,
+      "techs": 59,
+      "policies": 17,
+      "militaryUnits": 80,
+      "capturedCities": 3,
+      "conquestFrom": [
+        "Brussels",
+        "Florence",
+        "Singapore"
+      ],
+      "power_no_military": 3610
+    },
+    "Northern Song": {
+      "cities": 10,
+      "population": 136,
+      "techs": 65,
+      "policies": 20,
+      "militaryUnits": 7,
+      "capturedCities": 1,
+      "conquestFrom": [
+        "Songhai"
+      ],
+      "power_no_military": 2883,
+      "note": "玩家（人类）—— 消灭了桑海"
+    },
+    "Babylon": {
+      "cities": 3,
+      "population": 7,
+      "techs": 53,
+      "policies": 12,
+      "militaryUnits": 2,
+      "capturedCities": 0,
+      "conquestFrom": [],
+      "power_no_military": 484
+    },
+    "Songhai": {
+      "cities": 0,
+      "population": 0,
+      "techs": 53,
+      "policies": 14,
+      "militaryUnits": 3,
+      "capturedCities": 0,
+      "conquestFrom": [],
+      "power_no_military": 1386,
+      "note": "被玩家消灭"
+    },
+    "Sweden": {
+      "cities": 0,
+      "population": 0,
+      "techs": 62,
+      "policies": 19,
+      "militaryUnits": 0,
+      "capturedCities": 0,
+      "conquestFrom": [],
+      "power_no_military": null,
+      "note": "被盛唐 AI 消灭"
+    }
+  }
+}

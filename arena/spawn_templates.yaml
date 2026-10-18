@@ -1,0 +1,68 @@
+# 训练场出生点模板（arena/spawn_templates.yaml）
+#
+# 国家池（已确认可用）：
+#   cathay mod（unciv unrepentant cathay，已在客户端装）:
+#     Sheng Tang 盛唐 / MongolEmpire 蒙古帝国 / Qindynasty 秦 / Late Tang 晚唐
+#   基线 GnK：Babylon 巴比伦 / Ethiopia 埃塞俄比亚 / Sweden 瑞典 / Rome / Greece / Egypt
+#             / Songhai / Iroquois / India / Persia / …（全部基线主力文明可用）
+#
+# 模板字段：
+#   players: 顺序即文明表顺序；role = human | civagent | native（对应席位规则，决策 5.4）
+#   spawn:   (x, y) 地图坐标——生成器会自动补点对称镜像位（(-x,-y)）
+#   personality: 传给大脑的性格标注（config.yaml 覆盖）
+#
+# 注意：镜像由 map_generator 完成，这里只写"一半"的出生点；两侧同型对称。
+
+templates:
+
+  duel_agent_vs_agent:          # 1v1 纯 Agent 对抗（默认训练模板）
+    map: symmetric-arena.json
+    players:
+      - nation: Sheng Tang
+        role: civagent
+        spawn: [-12, -10]
+      - nation: MongolEmpire
+        role: civagent
+        spawn: [12, -10]
+
+  duel_human_vs_agent:          # 1v1 人类 vs Agent（人工测试模板）
+    map: symmetric-arena.json
+    players:
+      - nation: Sheng Tang
+        role: human
+        spawn: [-12, -10]
+      - nation: MongolEmpire
+        role: civagent
+        spawn: [12, -10]
+
+  teams_2v2:                    # 2v2 队伍对抗（队伍内相邻，跨队镜像对称）
+    map: symmetric-arena.json
+    players:
+      - nation: Sheng Tang
+        role: civagent
+        spawn: [-14, -12]
+      - nation: Babylon
+        role: civagent
+        spawn: [-10, -9]
+      - nation: MongolEmpire
+        role: civagent
+        spawn: [14, -12]
+      - nation: Sweden
+        role: civagent
+        spawn: [10, -9]
+
+  melee_4_free_for_all:         # 4 人混战（两对镜像）
+    map: symmetric-arena.json
+    players:
+      - nation: Sheng Tang
+        role: civagent
+        spawn: [-14, -12]
+      - nation: Ethiopia
+        role: civagent
+        spawn: [14, -12]
+      - nation: Qindynasty
+        role: civagent
+        spawn: [-12, 12]
+      - nation: MongolEmpire
+        role: civagent
+        spawn: [12, 12]

@@ -1,0 +1,2447 @@
+{
+  "generatedAt": "2026-09-12T20:00:35",
+  "kind": "all",
+  "method": "median",
+  "weights": "hand",
+  "coverage": {
+    "games": 54,
+    "stats": 29,
+    "final": 49,
+    "outcome": 44,
+    "complete": 23,
+    "withLog": 49,
+    "statsPct": 53.7,
+    "completePct": 42.6,
+    "missingStats": [
+      "35ebce44",
+      "4b4c6059",
+      "c3854be5",
+      "ca7fd45b",
+      "98582eab",
+      "f07a8981",
+      "27136989",
+      "9f588bac",
+      "f11a2638",
+      "cbb79c4b",
+      "751369b2",
+      "81047ecf",
+      "ea25d16c",
+      "ce10e5a1",
+      "454f353f",
+      "ca53f9df",
+      "ca3dda60",
+      "b93c87ed",
+      "e99ceef7",
+      "38273932",
+      "0ce9339f",
+      "116cf7cf"
+    ],
+    "interrupted": [
+      "263332dd",
+      "bf3dc250"
+    ]
+  },
+  "indexed": 54,
+  "scorable": 29,
+  "ranking": [
+    {
+      "nation": "MongolEmpire",
+      "score": 2.2177,
+      "games": 6,
+      "meanPlacement": 1.5,
+      "wins": 0,
+      "engineLeads": 4,
+      "kinds": {
+        "rotation": 3,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Sheng Tang",
+      "score": 1.5799,
+      "games": 6,
+      "meanPlacement": 1.83,
+      "wins": 0,
+      "engineLeads": 2,
+      "kinds": {
+        "rotation": 3,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Sweden",
+      "score": 1.2973,
+      "games": 7,
+      "meanPlacement": 3.43,
+      "wins": 0,
+      "engineLeads": 2,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Qindynasty",
+      "score": 1.2697,
+      "games": 7,
+      "meanPlacement": 2.29,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Songhai",
+      "score": 1.2471,
+      "games": 7,
+      "meanPlacement": 2.29,
+      "wins": 0,
+      "engineLeads": 2,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Greece",
+      "score": 1.1281,
+      "games": 8,
+      "meanPlacement": 3.0,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 5,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Persia",
+      "score": 1.025,
+      "games": 7,
+      "meanPlacement": 3.57,
+      "wins": 0,
+      "engineLeads": 2,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Late Tang",
+      "score": 1.0127,
+      "games": 9,
+      "meanPlacement": 2.89,
+      "wins": 0,
+      "engineLeads": 3,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 5
+      }
+    },
+    {
+      "nation": "Ethiopia",
+      "score": 1.0,
+      "games": 7,
+      "meanPlacement": 4.0,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Egypt",
+      "score": 0.9843,
+      "games": 7,
+      "meanPlacement": 3.71,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "India",
+      "score": 0.9653,
+      "games": 7,
+      "meanPlacement": 3.71,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "Rome",
+      "score": 0.9171,
+      "games": 27,
+      "meanPlacement": 3.37,
+      "wins": 0,
+      "engineLeads": 7,
+      "kinds": {
+        "rotation": 9,
+        "unknown": 18
+      }
+    },
+    {
+      "nation": "Babylon",
+      "score": 0.8796,
+      "games": 7,
+      "meanPlacement": 4.14,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 4,
+        "unknown": 3
+      }
+    },
+    {
+      "nation": "France",
+      "score": 0.8723,
+      "games": 3,
+      "meanPlacement": 3.0,
+      "wins": 0,
+      "engineLeads": 1,
+      "kinds": {
+        "rotation": 3
+      }
+    },
+    {
+      "nation": "America",
+      "score": 0.8424,
+      "games": 3,
+      "meanPlacement": 4.0,
+      "wins": 0,
+      "engineLeads": 0,
+      "kinds": {
+        "rotation": 3
+      }
+    },
+    {
+      "nation": "Russia",
+      "score": 0.828,
+      "games": 3,
+      "meanPlacement": 3.33,
+      "wins": 0,
+      "engineLeads": 0,
+      "kinds": {
+        "rotation": 3
+      }
+    }
+  ],
+  "games": [
+    {
+      "tag": "r0g0",
+      "kind": "rotation",
+      "gameId": "714c8c21",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Sheng Tang": {
+          "base": 1.1505,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1505,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.4475,
+            "150": 1.0041
+          },
+          "finalEngineScore": 566,
+          "finalPower": 5322,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "MongolEmpire": {
+          "base": 1.0638,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0638,
+          "checkpoints": {
+            "50": 0.9745,
+            "100": 1.2169,
+            "150": 1.0
+          },
+          "finalEngineScore": 1062,
+          "finalPower": 5300,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Qindynasty": {
+          "base": 1.3086,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3086,
+          "checkpoints": {
+            "50": 1.1215,
+            "100": 1.3151,
+            "150": 1.4892
+          },
+          "finalEngineScore": 855,
+          "finalPower": 7892,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Late Tang": {
+          "base": 0.7978,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7978,
+          "checkpoints": {
+            "50": 1.1556,
+            "100": 0.5363,
+            "150": 0.7015
+          },
+          "finalEngineScore": 404,
+          "finalPower": 3718,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Babylon": {
+          "base": 0.6904,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.6904,
+          "checkpoints": {
+            "50": 0.8715,
+            "100": 0.7418,
+            "150": 0.4578
+          },
+          "finalEngineScore": 407,
+          "finalPower": 2426,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Ethiopia": {
+          "base": 1.0632,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0632,
+          "checkpoints": {
+            "50": 1.1192,
+            "100": 1.0,
+            "150": 1.0704
+          },
+          "finalEngineScore": 675,
+          "finalPower": 5673,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Rome": {
+          "base": 0.5177,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5177,
+          "checkpoints": {
+            "50": 0.791,
+            "100": 0.4421,
+            "150": 0.32
+          },
+          "finalEngineScore": 248,
+          "finalPower": 1696,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": "r0g1",
+      "kind": "rotation",
+      "gameId": "deb7af66",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Sweden": {
+          "base": 1.0249,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0249,
+          "checkpoints": {
+            "50": 1.1669,
+            "100": 0.9888,
+            "150": 0.9189
+          },
+          "finalEngineScore": 460,
+          "finalPower": 2672,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Greece": {
+          "base": 1.4617,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.4617,
+          "checkpoints": {
+            "50": 1.0525,
+            "100": 1.0,
+            "150": 2.3325
+          },
+          "finalEngineScore": 603,
+          "finalPower": 6784,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Egypt": {
+          "base": 1.0918,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0918,
+          "checkpoints": {
+            "50": 0.9458,
+            "100": 1.3297,
+            "150": 1.0
+          },
+          "finalEngineScore": 597,
+          "finalPower": 2908,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Persia": {
+          "base": 0.7607,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7607,
+          "checkpoints": {
+            "50": 0.861,
+            "100": 0.7077,
+            "150": 0.7134
+          },
+          "finalEngineScore": 320,
+          "finalPower": 2075,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "India": {
+          "base": 1.1362,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1362,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.1699,
+            "150": 1.2386
+          },
+          "finalEngineScore": 535,
+          "finalPower": 3602,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Songhai": {
+          "base": 1.7202,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.7202,
+          "checkpoints": {
+            "50": 1.0254,
+            "100": 1.2703,
+            "150": 2.8651
+          },
+          "finalEngineScore": 692,
+          "finalPower": 8333,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.5872,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5872,
+          "checkpoints": {
+            "50": 0.8661,
+            "100": 0.4857,
+            "150": 0.4098
+          },
+          "finalEngineScore": 321,
+          "finalPower": 1192,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": "r0g2",
+      "kind": "rotation",
+      "gameId": "9f49459c",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Rome": {
+          "base": 1.132,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.132,
+          "checkpoints": {
+            "50": 1.0124,
+            "100": 1.0192,
+            "150": 1.3645
+          },
+          "finalEngineScore": 417,
+          "finalPower": 2484,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "America": {
+          "base": 0.9295,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9295,
+          "checkpoints": {
+            "50": 0.9876,
+            "100": 0.9808,
+            "150": 0.8202
+          },
+          "finalEngineScore": 442,
+          "finalPower": 2690,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "France": {
+          "base": 1.1598,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1598,
+          "checkpoints": {
+            "50": 1.0503,
+            "100": 1.2494,
+            "150": 1.1798
+          },
+          "finalEngineScore": 743,
+          "finalPower": 3869,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Russia": {
+          "base": 0.5618,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5618,
+          "checkpoints": {
+            "50": 0.808,
+            "100": 0.4912,
+            "150": 0.3862
+          },
+          "finalEngineScore": 350,
+          "finalPower": 1266,
+          "lastTurn": 150,
+          "placement": 4
+        }
+      }
+    },
+    {
+      "tag": "r1g0",
+      "kind": "rotation",
+      "gameId": "be0b2c85",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "MongolEmpire": {
+          "base": 1.6449,
+          "captured": 14,
+          "eliminated": 0,
+          "bonus": 2.8,
+          "score": 4.4449,
+          "checkpoints": {
+            "50": 1.3814,
+            "100": 1.0699,
+            "150": 2.4834
+          },
+          "finalEngineScore": 1417,
+          "finalPower": 16252,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Qindynasty": {
+          "base": 1.0406,
+          "captured": 4,
+          "eliminated": 0,
+          "bonus": 0.8,
+          "score": 1.8406,
+          "checkpoints": {
+            "50": 0.9333,
+            "100": 1.0,
+            "150": 1.1886
+          },
+          "finalEngineScore": 616,
+          "finalPower": 7778,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Late Tang": {
+          "base": 1.1429,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1429,
+          "checkpoints": {
+            "50": 1.5417,
+            "100": 1.7344,
+            "150": 0.1527
+          },
+          "finalEngineScore": 173,
+          "finalPower": 1000,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Babylon": {
+          "base": 0.5708,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5708,
+          "checkpoints": {
+            "50": 0.7433,
+            "100": 0.8549,
+            "150": 0.1141
+          },
+          "finalEngineScore": 157,
+          "finalPower": 746,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Ethiopia": {
+          "base": 1.1739,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 1.3739,
+          "checkpoints": {
+            "50": 1.0167,
+            "100": 0.8655,
+            "150": 1.6394
+          },
+          "finalEngineScore": 601,
+          "finalPower": 10728,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Sweden": {
+          "base": 1.0532,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 1.2532,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.1597,
+            "150": 1.0
+          },
+          "finalEngineScore": 480,
+          "finalPower": 6544,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Rome": {
+          "base": 0.4404,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.4404,
+          "checkpoints": {
+            "50": 0.8158,
+            "100": 0.3866,
+            "150": 0.119
+          },
+          "finalEngineScore": 276,
+          "finalPower": 778,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": "r1g1",
+      "kind": "rotation",
+      "gameId": "263332dd",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "Greece": {
+          "base": 1.0044,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0044,
+          "checkpoints": {
+            "18": 1.0044
+          },
+          "finalEngineScore": 29,
+          "finalPower": 288,
+          "lastTurn": 18,
+          "placement": 3
+        },
+        "Egypt": {
+          "base": 0.9956,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9956,
+          "checkpoints": {
+            "18": 0.9956
+          },
+          "finalEngineScore": 32,
+          "finalPower": 285,
+          "lastTurn": 18,
+          "placement": 4
+        },
+        "Persia": {
+          "base": 0.9956,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9956,
+          "checkpoints": {
+            "18": 0.9956
+          },
+          "finalEngineScore": 32,
+          "finalPower": 285,
+          "lastTurn": 18,
+          "placement": 4
+        },
+        "India": {
+          "base": 1.0061,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0061,
+          "checkpoints": {
+            "18": 1.0061
+          },
+          "finalEngineScore": 32,
+          "finalPower": 288,
+          "lastTurn": 18,
+          "placement": 2
+        },
+        "Songhai": {
+          "base": 1.0218,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0218,
+          "checkpoints": {
+            "18": 1.0218
+          },
+          "finalEngineScore": 31,
+          "finalPower": 292,
+          "lastTurn": 18,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.9956,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9956,
+          "checkpoints": {
+            "18": 0.9956
+          },
+          "finalEngineScore": 31,
+          "finalPower": 282,
+          "lastTurn": 18,
+          "placement": 4
+        }
+      }
+    },
+    {
+      "tag": "r1g1-fixed",
+      "kind": "rotation",
+      "gameId": "bf3dc250",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "Greece": {
+          "base": 1.3515,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3515,
+          "checkpoints": {
+            "50": 1.1706,
+            "100": 1.5325
+          },
+          "finalEngineScore": 952,
+          "finalPower": 5188,
+          "lastTurn": 149,
+          "placement": 1
+        },
+        "Egypt": {
+          "base": 0.6907,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.6907,
+          "checkpoints": {
+            "50": 0.8506,
+            "100": 0.5308
+          },
+          "finalEngineScore": 623,
+          "finalPower": 1854,
+          "lastTurn": 149,
+          "placement": 6
+        },
+        "Persia": {
+          "base": 1.0672,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0672,
+          "checkpoints": {
+            "50": 1.0648,
+            "100": 1.0695
+          },
+          "finalEngineScore": 476,
+          "finalPower": 5476,
+          "lastTurn": 149,
+          "placement": 3
+        },
+        "India": {
+          "base": 0.8543,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8543,
+          "checkpoints": {
+            "50": 1.0048,
+            "100": 0.7038
+          },
+          "finalEngineScore": 332,
+          "finalPower": 1952,
+          "lastTurn": 149,
+          "placement": 5
+        },
+        "Songhai": {
+          "base": 0.9148,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9148,
+          "checkpoints": {
+            "50": 0.8991,
+            "100": 0.9305
+          },
+          "finalEngineScore": 438,
+          "finalPower": 2974,
+          "lastTurn": 149,
+          "placement": 4
+        },
+        "Rome": {
+          "base": 1.2687,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.2687,
+          "checkpoints": {
+            "50": 0.9952,
+            "100": 1.5423
+          },
+          "finalEngineScore": 596,
+          "finalPower": 7300,
+          "lastTurn": 149,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "r1g2",
+      "kind": "rotation",
+      "gameId": "e13c9c17",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "America": {
+          "base": 1.0,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.0,
+            "150": 1.0
+          },
+          "finalEngineScore": 877,
+          "finalPower": 3250,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "France": {
+          "base": 0.5486,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5486,
+          "checkpoints": {
+            "50": 0.8324,
+            "100": 0.6088,
+            "150": 0.2046
+          },
+          "finalEngineScore": 148,
+          "finalPower": 665,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Russia": {
+          "base": 1.318,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.318,
+          "checkpoints": {
+            "50": 1.0025,
+            "100": 1.416,
+            "150": 1.5355
+          },
+          "finalEngineScore": 593,
+          "finalPower": 4990,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Sheng Tang": {
+          "base": 2.2634,
+          "captured": 7,
+          "eliminated": 0,
+          "bonus": 1.4,
+          "score": 3.6634,
+          "checkpoints": {
+            "50": 1.0565,
+            "100": 2.2027,
+            "150": 3.5309
+          },
+          "finalEngineScore": 757,
+          "finalPower": 11476,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.5609,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5609,
+          "checkpoints": {
+            "50": 0.6307,
+            "100": 0.4449,
+            "150": 0.6071
+          },
+          "finalEngineScore": 365,
+          "finalPower": 1973,
+          "lastTurn": 150,
+          "placement": 4
+        }
+      }
+    },
+    {
+      "tag": "r2g0",
+      "kind": "rotation",
+      "gameId": "ae18237c",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Qindynasty": {
+          "base": 1.1966,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1966,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.0421,
+            "150": 1.5477
+          },
+          "finalEngineScore": 978,
+          "finalPower": 6292,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Late Tang": {
+          "base": 1.5835,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 1.7835,
+          "checkpoints": {
+            "50": 1.2674,
+            "100": 1.3896,
+            "150": 2.0936
+          },
+          "finalEngineScore": 543,
+          "finalPower": 8512,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Babylon": {
+          "base": 1.3325,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3325,
+          "checkpoints": {
+            "50": 1.4007,
+            "100": 1.2907,
+            "150": 1.3061
+          },
+          "finalEngineScore": 508,
+          "finalPower": 5310,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Ethiopia": {
+          "base": 0.6021,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.6021,
+          "checkpoints": {
+            "50": 0.8532,
+            "100": 0.4642,
+            "150": 0.4889
+          },
+          "finalEngineScore": 302,
+          "finalPower": 1988,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Sweden": {
+          "base": 0.8451,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8451,
+          "checkpoints": {
+            "50": 0.7985,
+            "100": 0.7368,
+            "150": 1.0
+          },
+          "finalEngineScore": 432,
+          "finalPower": 4066,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Greece": {
+          "base": 0.9748,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9748,
+          "checkpoints": {
+            "50": 1.0816,
+            "100": 1.0,
+            "150": 0.8427
+          },
+          "finalEngineScore": 525,
+          "finalPower": 3426,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Rome": {
+          "base": 0.5111,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5111,
+          "checkpoints": {
+            "50": 0.7588,
+            "100": 0.4375,
+            "150": 0.3371
+          },
+          "finalEngineScore": 432,
+          "finalPower": 1370,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": "r2g0-fixed",
+      "kind": "rotation",
+      "gameId": "d4cb5f68",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Qindynasty": {
+          "base": 1.1614,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1614,
+          "checkpoints": {
+            "50": 0.9745,
+            "100": 1.2172,
+            "150": 1.2925
+          },
+          "finalEngineScore": 877,
+          "finalPower": 5895,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Late Tang": {
+          "base": 1.5342,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.5342,
+          "checkpoints": {
+            "50": 1.3087,
+            "100": 2.1787,
+            "150": 1.1153
+          },
+          "finalEngineScore": 465,
+          "finalPower": 5087,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Babylon": {
+          "base": 1.1355,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1355,
+          "checkpoints": {
+            "50": 1.0255,
+            "100": 1.0261,
+            "150": 1.3549
+          },
+          "finalEngineScore": 578,
+          "finalPower": 6180,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Ethiopia": {
+          "base": 0.6842,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 0.8842,
+          "checkpoints": {
+            "50": 0.9157,
+            "100": 0.5699,
+            "150": 0.567
+          },
+          "finalEngineScore": 277,
+          "finalPower": 2586,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Sweden": {
+          "base": 0.8826,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8826,
+          "checkpoints": {
+            "50": 0.8958,
+            "100": 0.9739,
+            "150": 0.7781
+          },
+          "finalEngineScore": 386,
+          "finalPower": 3549,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Greece": {
+          "base": 1.0337,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0337,
+          "checkpoints": {
+            "50": 1.3397,
+            "100": 0.8766,
+            "150": 0.8847
+          },
+          "finalEngineScore": 635,
+          "finalPower": 4035,
+          "lastTurn": 150,
+          "placement": 4
+        }
+      }
+    },
+    {
+      "tag": "r2g1-fixed",
+      "kind": "rotation",
+      "gameId": "a05756ec",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Egypt": {
+          "base": 0.7483,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7483,
+          "checkpoints": {
+            "50": 0.8885,
+            "100": 0.7609,
+            "150": 0.5955
+          },
+          "finalEngineScore": 676,
+          "finalPower": 1860,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Persia": {
+          "base": 1.5874,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.5874,
+          "checkpoints": {
+            "50": 1.0896,
+            "100": 1.3935,
+            "150": 2.2791
+          },
+          "finalEngineScore": 527,
+          "finalPower": 7116,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "India": {
+          "base": 0.7264,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7264,
+          "checkpoints": {
+            "50": 0.9104,
+            "100": 0.7212,
+            "150": 0.5476
+          },
+          "finalEngineScore": 353,
+          "finalPower": 1710,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Songhai": {
+          "base": 1.2714,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.2714,
+          "checkpoints": {
+            "50": 1.1707,
+            "100": 1.2391,
+            "150": 1.4045
+          },
+          "finalEngineScore": 764,
+          "finalPower": 4386,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Rome": {
+          "base": 1.5173,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.5173,
+          "checkpoints": {
+            "50": 1.2023,
+            "100": 1.4534,
+            "150": 1.8962
+          },
+          "finalEngineScore": 709,
+          "finalPower": 5921,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "America": {
+          "base": 0.5978,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5978,
+          "checkpoints": {
+            "50": 0.8366,
+            "100": 0.4792,
+            "150": 0.4777
+          },
+          "finalEngineScore": 293,
+          "finalPower": 1492,
+          "lastTurn": 150,
+          "placement": 6
+        }
+      }
+    },
+    {
+      "tag": "r2g2-fixed",
+      "kind": "rotation",
+      "gameId": "4949f3e7",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "France": {
+          "base": 0.9085,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9085,
+          "checkpoints": {
+            "50": 0.9655,
+            "100": 0.8587,
+            "150": 0.9015
+          },
+          "finalEngineScore": 685,
+          "finalPower": 4638,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Russia": {
+          "base": 0.6041,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.6041,
+          "checkpoints": {
+            "50": 1.0345,
+            "100": 0.4767,
+            "150": 0.3011
+          },
+          "finalEngineScore": 649,
+          "finalPower": 1550,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Sheng Tang": {
+          "base": 1.1067,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1067,
+          "checkpoints": {
+            "50": 0.7779,
+            "100": 1.1413,
+            "150": 1.4007
+          },
+          "finalEngineScore": 484,
+          "finalPower": 7208,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "MongolEmpire": {
+          "base": 1.1994,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1994,
+          "checkpoints": {
+            "50": 1.3312,
+            "100": 1.1686,
+            "150": 1.0985
+          },
+          "finalEngineScore": 957,
+          "finalPower": 5652,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": null,
+      "kind": "unknown",
+      "gameId": "2368fad5",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "Sweden": {
+          "base": 1.2799,
+          "captured": 6,
+          "eliminated": 1,
+          "bonus": 1.2167,
+          "score": 2.4966,
+          "checkpoints": {
+            "50": 1.1085,
+            "100": 1.3826,
+            "150": 1.3486
+          },
+          "finalEngineScore": 557,
+          "finalPower": 7285,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Greece": {
+          "base": 0.9873,
+          "captured": 2,
+          "eliminated": 1,
+          "bonus": 0.4167,
+          "score": 1.4039,
+          "checkpoints": {
+            "50": 1.0724,
+            "100": 0.8894,
+            "150": 1.0
+          },
+          "finalEngineScore": 495,
+          "finalPower": 5402,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Egypt": {
+          "base": 0.8855,
+          "captured": 0,
+          "eliminated": 1,
+          "bonus": 0.0167,
+          "score": 0.9021,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.0,
+            "150": 0.6564
+          },
+          "finalEngineScore": 618,
+          "finalPower": 3546,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Persia": {
+          "base": 0.6697,
+          "captured": 0,
+          "eliminated": 1,
+          "bonus": 0.0167,
+          "score": 0.6863,
+          "checkpoints": {
+            "50": 0.8312,
+            "100": 0.785,
+            "150": 0.3928
+          },
+          "finalEngineScore": 321,
+          "finalPower": 2122,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "India": {
+          "base": 1.0231,
+          "captured": 1,
+          "eliminated": 1,
+          "bonus": 0.2167,
+          "score": 1.2397,
+          "checkpoints": {
+            "50": 0.8381,
+            "100": 1.1775,
+            "150": 1.0536
+          },
+          "finalEngineScore": 327,
+          "finalPower": 5692,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Songhai": {
+          "base": 1.5096,
+          "captured": 1,
+          "eliminated": 1,
+          "bonus": 0.2167,
+          "score": 1.7263,
+          "checkpoints": {
+            "50": 1.3342,
+            "100": 2.0226,
+            "150": 1.1721
+          },
+          "finalEngineScore": 639,
+          "finalPower": 6332,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 0.431,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.431,
+          "checkpoints": {
+            "50": 0.8346,
+            "100": 0.3975,
+            "150": 0.0609
+          },
+          "finalEngineScore": 104,
+          "finalPower": 329,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": null,
+      "kind": "unknown",
+      "gameId": "81a70bbf",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "Sheng Tang": {
+          "base": 1.0601,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 1.2601,
+          "checkpoints": {
+            "50": 0.975,
+            "100": 1.0,
+            "150": 1.2053
+          },
+          "finalEngineScore": 555,
+          "finalPower": 6507,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "MongolEmpire": {
+          "base": 1.403,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.403,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.6119,
+            "150": 1.597
+          },
+          "finalEngineScore": 1072,
+          "finalPower": 8622,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Qindynasty": {
+          "base": 1.3941,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3941,
+          "checkpoints": {
+            "50": 1.1749,
+            "100": 1.3079,
+            "150": 1.6995
+          },
+          "finalEngineScore": 919,
+          "finalPower": 9174,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Late Tang": {
+          "base": 0.649,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.649,
+          "checkpoints": {
+            "50": 1.1317,
+            "100": 0.3567,
+            "150": 0.4586
+          },
+          "finalEngineScore": 375,
+          "finalPower": 2476,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Babylon": {
+          "base": 0.7045,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7045,
+          "checkpoints": {
+            "50": 0.8902,
+            "100": 0.6679,
+            "150": 0.5555
+          },
+          "finalEngineScore": 445,
+          "finalPower": 2999,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Ethiopia": {
+          "base": 1.1237,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1237,
+          "checkpoints": {
+            "50": 1.1794,
+            "100": 1.1917,
+            "150": 1.0
+          },
+          "finalEngineScore": 557,
+          "finalPower": 5398,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Rome": {
+          "base": 0.4356,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.4356,
+          "checkpoints": {
+            "50": 0.7509,
+            "100": 0.3817,
+            "150": 0.1743
+          },
+          "finalEngineScore": 368,
+          "finalPower": 941,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": null,
+      "kind": "unknown",
+      "gameId": "81fe8a8c",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "Greece": {
+          "base": 0.8572,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8572,
+          "checkpoints": {
+            "50": 1.0864,
+            "100": 0.7827,
+            "150": 0.7024
+          },
+          "finalEngineScore": 635,
+          "finalPower": 3688,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Egypt": {
+          "base": 1.3727,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3727,
+          "checkpoints": {
+            "50": 1.066,
+            "100": 1.1732,
+            "150": 1.8789
+          },
+          "finalEngineScore": 743,
+          "finalPower": 9867,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Persia": {
+          "base": 1.0337,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0337,
+          "checkpoints": {
+            "50": 1.0025,
+            "100": 1.0569,
+            "150": 1.0417
+          },
+          "finalEngineScore": 514,
+          "finalPower": 5470,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "India": {
+          "base": 0.7281,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.7281,
+          "checkpoints": {
+            "50": 0.9941,
+            "100": 0.7808,
+            "150": 0.4095
+          },
+          "finalEngineScore": 301,
+          "finalPower": 2150,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Songhai": {
+          "base": 1.0,
+          "captured": 1,
+          "eliminated": 0,
+          "bonus": 0.2,
+          "score": 1.2,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.0,
+            "150": 1.0
+          },
+          "finalEngineScore": 534,
+          "finalPower": 5252,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Sheng Tang": {
+          "base": 1.4059,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.4059,
+          "checkpoints": {
+            "50": 0.9475,
+            "100": 1.907,
+            "150": 1.363
+          },
+          "finalEngineScore": 443,
+          "finalPower": 7158,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.5739,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5739,
+          "checkpoints": {
+            "50": 0.8569,
+            "100": 0.5585,
+            "150": 0.3064
+          },
+          "finalEngineScore": 471,
+          "finalPower": 1609,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": null,
+      "kind": "unknown",
+      "gameId": "b09f7bf0",
+      "winner": null,
+      "outcome": null,
+      "players": [],
+      "civs": {
+        "MongolEmpire": {
+          "base": 1.5678,
+          "captured": 2,
+          "eliminated": 0,
+          "bonus": 0.4,
+          "score": 1.9678,
+          "checkpoints": {
+            "50": 0.971,
+            "100": 1.443,
+            "150": 2.2894
+          },
+          "finalEngineScore": 903,
+          "finalPower": 10880,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Qindynasty": {
+          "base": 1.0,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0,
+          "checkpoints": {
+            "50": 1.0,
+            "100": 1.0,
+            "150": 1.0
+          },
+          "finalEngineScore": 775,
+          "finalPower": 4752,
+          "lastTurn": 150,
+          "placement": 4
+        },
+        "Late Tang": {
+          "base": 1.6116,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.6116,
+          "checkpoints": {
+            "50": 1.5085,
+            "100": 1.712,
+            "150": 1.6141
+          },
+          "finalEngineScore": 507,
+          "finalPower": 7671,
+          "lastTurn": 150,
+          "placement": 3
+        },
+        "Babylon": {
+          "base": 0.5532,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5532,
+          "checkpoints": {
+            "50": 0.8946,
+            "100": 0.5713,
+            "150": 0.1937
+          },
+          "finalEngineScore": 253,
+          "finalPower": 920,
+          "lastTurn": 150,
+          "placement": 6
+        },
+        "Ethiopia": {
+          "base": 0.9379,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9379,
+          "checkpoints": {
+            "50": 1.0386,
+            "100": 0.793,
+            "150": 0.9821
+          },
+          "finalEngineScore": 532,
+          "finalPower": 4668,
+          "lastTurn": 150,
+          "placement": 5
+        },
+        "Sweden": {
+          "base": 1.3794,
+          "captured": 3,
+          "eliminated": 0,
+          "bonus": 0.6,
+          "score": 1.9794,
+          "checkpoints": {
+            "50": 1.196,
+            "100": 1.2082,
+            "150": 1.734
+          },
+          "finalEngineScore": 553,
+          "finalPower": 8241,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.4902,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.4902,
+          "checkpoints": {
+            "50": 0.735,
+            "100": 0.4467,
+            "150": 0.289
+          },
+          "finalEngineScore": 507,
+          "finalPower": 1374,
+          "lastTurn": 150,
+          "placement": 7
+        }
+      }
+    },
+    {
+      "tag": "latetang_retest",
+      "kind": "unknown",
+      "gameId": "0d766fe5",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Late Tang": {
+          "base": 0.0272,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.0272,
+          "checkpoints": {
+            "50": 0.0506,
+            "100": 0.0197,
+            "150": 0.0115
+          },
+          "finalEngineScore": 12,
+          "finalPower": 18,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.9728,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.9728,
+          "checkpoints": {
+            "50": 1.9494,
+            "100": 1.9803,
+            "150": 1.9885
+          },
+          "finalEngineScore": 1215,
+          "finalPower": 3112,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "latetang_v3",
+      "kind": "unknown",
+      "gameId": "a7048089",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Late Tang": {
+          "base": 1.3956,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.3956,
+          "checkpoints": {
+            "50": 1.1886,
+            "100": 1.4425,
+            "150": 1.5558
+          },
+          "finalEngineScore": 1421,
+          "finalPower": 8094,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.6044,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.6044,
+          "checkpoints": {
+            "50": 0.8114,
+            "100": 0.5575,
+            "150": 0.4442
+          },
+          "finalEngineScore": 529,
+          "finalPower": 2311,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-0",
+      "kind": "unknown",
+      "gameId": "bc79524a",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Sheng Tang": {
+          "base": 0.8926,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8926,
+          "checkpoints": {
+            "50": 0.8587,
+            "100": 0.7637,
+            "150": 1.0555
+          },
+          "finalEngineScore": 673,
+          "finalPower": 5694,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.1074,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1074,
+          "checkpoints": {
+            "50": 1.1413,
+            "100": 1.2363,
+            "150": 0.9445
+          },
+          "finalEngineScore": 1200,
+          "finalPower": 5096,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-1",
+      "kind": "unknown",
+      "gameId": "9f8eb702",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "MongolEmpire": {
+          "base": 1.4272,
+          "captured": 9,
+          "eliminated": 0,
+          "bonus": 1.8,
+          "score": 3.2272,
+          "checkpoints": {
+            "50": 1.15,
+            "100": 1.2062,
+            "150": 1.9255
+          },
+          "finalEngineScore": 1913,
+          "finalPower": 18708,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.5728,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5728,
+          "checkpoints": {
+            "50": 0.85,
+            "100": 0.7938,
+            "150": 0.0745
+          },
+          "finalEngineScore": 177,
+          "finalPower": 724,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-10",
+      "kind": "unknown",
+      "gameId": "8e4d5bb7",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "India": {
+          "base": 1.0662,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0662,
+          "checkpoints": {
+            "50": 0.9194,
+            "100": 1.1646,
+            "150": 1.1146
+          },
+          "finalEngineScore": 926,
+          "finalPower": 3438,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.9338,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9338,
+          "checkpoints": {
+            "50": 1.0806,
+            "100": 0.8354,
+            "150": 0.8854
+          },
+          "finalEngineScore": 819,
+          "finalPower": 2732,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-11",
+      "kind": "unknown",
+      "gameId": "60cdc171",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Songhai": {
+          "base": 0.8751,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8751,
+          "checkpoints": {
+            "50": 0.8919,
+            "100": 0.7926,
+            "150": 0.941
+          },
+          "finalEngineScore": 626,
+          "finalPower": 3152,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.1249,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1249,
+          "checkpoints": {
+            "50": 1.1081,
+            "100": 1.2074,
+            "150": 1.059
+          },
+          "finalEngineScore": 1076,
+          "finalPower": 3547,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-2",
+      "kind": "unknown",
+      "gameId": "cc095842",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Qindynasty": {
+          "base": 0.9867,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9867,
+          "checkpoints": {
+            "50": 0.9168,
+            "100": 0.9043,
+            "150": 1.139
+          },
+          "finalEngineScore": 994,
+          "finalPower": 6324,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.0133,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0133,
+          "checkpoints": {
+            "50": 1.0832,
+            "100": 1.0957,
+            "150": 0.861
+          },
+          "finalEngineScore": 1154,
+          "finalPower": 4780,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-3",
+      "kind": "unknown",
+      "gameId": "6adfbe03",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Late Tang": {
+          "base": 0.1727,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.1727,
+          "checkpoints": {
+            "50": 0.2855,
+            "100": 0.1516,
+            "150": 0.0809
+          },
+          "finalEngineScore": 16,
+          "finalPower": 104,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.8273,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.8273,
+          "checkpoints": {
+            "50": 1.7145,
+            "100": 1.8484,
+            "150": 1.9191
+          },
+          "finalEngineScore": 1015,
+          "finalPower": 2468,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-4",
+      "kind": "unknown",
+      "gameId": "a024298b",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Babylon": {
+          "base": 1.1706,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.1706,
+          "checkpoints": {
+            "50": 1.0991,
+            "100": 1.177,
+            "150": 1.2356
+          },
+          "finalEngineScore": 909,
+          "finalPower": 3050,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.8294,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.8294,
+          "checkpoints": {
+            "50": 0.9009,
+            "100": 0.823,
+            "150": 0.7644
+          },
+          "finalEngineScore": 557,
+          "finalPower": 1887,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-5",
+      "kind": "unknown",
+      "gameId": "f77726d4",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Ethiopia": {
+          "base": 1.0148,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0148,
+          "checkpoints": {
+            "50": 0.8901,
+            "100": 1.0734,
+            "150": 1.0809
+          },
+          "finalEngineScore": 1023,
+          "finalPower": 5122,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.9852,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9852,
+          "checkpoints": {
+            "50": 1.1099,
+            "100": 0.9266,
+            "150": 0.9191
+          },
+          "finalEngineScore": 635,
+          "finalPower": 4355,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-6",
+      "kind": "unknown",
+      "gameId": "aac69fb7",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Sweden": {
+          "base": 0.5996,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.5996,
+          "checkpoints": {
+            "50": 0.8115,
+            "100": 0.4958,
+            "150": 0.4916
+          },
+          "finalEngineScore": 650,
+          "finalPower": 1670,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.4004,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.4004,
+          "checkpoints": {
+            "50": 1.1885,
+            "100": 1.5042,
+            "150": 1.5084
+          },
+          "finalEngineScore": 1167,
+          "finalPower": 5126,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-7",
+      "kind": "unknown",
+      "gameId": "96b8aaa1",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Greece": {
+          "base": 0.9377,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9377,
+          "checkpoints": {
+            "50": 0.8543,
+            "100": 0.7972,
+            "150": 1.1616
+          },
+          "finalEngineScore": 1042,
+          "finalPower": 3735,
+          "lastTurn": 150,
+          "placement": 2
+        },
+        "Rome": {
+          "base": 1.0623,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0623,
+          "checkpoints": {
+            "50": 1.1457,
+            "100": 1.2028,
+            "150": 0.8384
+          },
+          "finalEngineScore": 535,
+          "finalPower": 2696,
+          "lastTurn": 150,
+          "placement": 1
+        }
+      }
+    },
+    {
+      "tag": "t0final-8",
+      "kind": "unknown",
+      "gameId": "cdead85d",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Egypt": {
+          "base": 1.0891,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0891,
+          "checkpoints": {
+            "50": 1.0079,
+            "100": 1.0435,
+            "150": 1.2159
+          },
+          "finalEngineScore": 734,
+          "finalPower": 2547,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.9109,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9109,
+          "checkpoints": {
+            "50": 0.9921,
+            "100": 0.9565,
+            "150": 0.7841
+          },
+          "finalEngineScore": 741,
+          "finalPower": 1642,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    },
+    {
+      "tag": "t0final-9",
+      "kind": "unknown",
+      "gameId": "2a8ebd62",
+      "winner": null,
+      "outcome": "no victory (turn limit)",
+      "players": [],
+      "civs": {
+        "Persia": {
+          "base": 1.0442,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 1.0442,
+          "checkpoints": {
+            "50": 0.9372,
+            "100": 1.0207,
+            "150": 1.1748
+          },
+          "finalEngineScore": 731,
+          "finalPower": 3413,
+          "lastTurn": 150,
+          "placement": 1
+        },
+        "Rome": {
+          "base": 0.9558,
+          "captured": 0,
+          "eliminated": 0,
+          "bonus": 0.0,
+          "score": 0.9558,
+          "checkpoints": {
+            "50": 1.0628,
+            "100": 0.9793,
+            "150": 0.8252
+          },
+          "finalEngineScore": 725,
+          "finalPower": 2398,
+          "lastTurn": 150,
+          "placement": 2
+        }
+      }
+    }
+  ]
+}

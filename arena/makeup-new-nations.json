@@ -1,0 +1,130 @@
+{
+  "new_nations": {
+    "Russia": [
+      {
+        "game": "mk1",
+        "rel": 0.94,
+        "score": 0.94,
+        "power": 5838,
+        "cities": 7,
+        "captured": 0,
+        "elim": 0
+      },
+      {
+        "game": "mk2",
+        "rel": 1.5,
+        "score": 1.5,
+        "power": 6248,
+        "cities": 12,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "America": [
+      {
+        "game": "mk1",
+        "rel": 1.02,
+        "score": 1.02,
+        "power": 6352,
+        "cities": 10,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "France": [
+      {
+        "game": "mk1",
+        "rel": 0.98,
+        "score": 0.98,
+        "power": 6080,
+        "cities": 7,
+        "captured": 0,
+        "elim": 0
+      },
+      {
+        "game": "mk2",
+        "rel": 0.97,
+        "score": 0.97,
+        "power": 4031,
+        "cities": 8,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "Arabia": [
+      {
+        "game": "mk1",
+        "rel": 0.55,
+        "score": 0.55,
+        "power": 3440,
+        "cities": 8,
+        "captured": 0,
+        "elim": 0
+      },
+      {
+        "game": "mk2",
+        "rel": 0.51,
+        "score": 0.51,
+        "power": 2132,
+        "cities": 6,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "Korea": [
+      {
+        "game": "mk1",
+        "rel": 1.12,
+        "score": 1.12,
+        "power": 6982,
+        "cities": 9,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "Spain": [
+      {
+        "game": "mk1",
+        "rel": 1.76,
+        "score": 2.56,
+        "power": 10934,
+        "cities": 13,
+        "captured": 4,
+        "elim": 0
+      }
+    ],
+    "The Maya": [
+      {
+        "game": "mk2",
+        "rel": 0.74,
+        "score": 0.74,
+        "power": 3095,
+        "cities": 10,
+        "captured": 0,
+        "elim": 0
+      }
+    ],
+    "The Huns": [
+      {
+        "game": "mk2",
+        "rel": 1.43,
+        "score": 1.63,
+        "power": 5962,
+        "cities": 9,
+        "captured": 1,
+        "elim": 0
+      }
+    ],
+    "Inca": [
+      {
+        "game": "mk2",
+        "rel": 1.03,
+        "score": 1.03,
+        "power": 4311,
+        "cities": 7,
+        "captured": 0,
+        "elim": 0
+      }
+    ]
+  }
+}

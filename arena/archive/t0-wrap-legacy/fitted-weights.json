@@ -1,0 +1,43 @@
+{
+  "weights": {
+    "population": -0.2398,
+    "cities": 0.3874,
+    "militaryMight": 0.0628,
+    "wonders": 1.5354,
+    "techs": -0.0018,
+    "cultureStored": -0.1444,
+    "faith": 1.0735,
+    "engineScore": 2.2166
+  },
+  "hand": {
+    "population": 8.0,
+    "cities": 8.0,
+    "militaryMight": 10.0,
+    "wonders": 30.0,
+    "techs": 4.0,
+    "cultureStored": 0.5,
+    "faith": 0.5,
+    "engineScore": 0.5
+  },
+  "validation": {
+    "hand": {
+      "accuracy": 55.2,
+      "folds": 29,
+      "spearman": 0.587
+    },
+    "equal": {
+      "accuracy": 65.5,
+      "folds": 29,
+      "spearman": 0.649
+    },
+    "fitted": {
+      "accuracy": 76.9,
+      "folds": 29,
+      "spearman": 0.0
+    }
+  },
+  "samples": 121,
+  "games": 29,
+  "label": "engineScore 局内最高者",
+  "l2": 1.0
+}

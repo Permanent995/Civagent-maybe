@@ -1,0 +1,20 @@
+{
+  "_what": "1v1 快棋在 150 回合的势比（duel150 列）",
+  "_source": "抽取自 arena/nation-strength-current.json（as_of 2026-09-13）；产出它的脚本不在仓库里",
+  "_why_frozen": "源数据已丢失，无法重算：SaveFiles 里 23 个 arena-stats 全是 6 文明局，索引里没有任何 duel 记录（归档里唯一的 batch 局 78abe323 连 stats 都没有）",
+  "_scale_warning": "重尾比值：MongolEmpire=25.86，其余 11 国 0.33~3.5。nation_strength.py 按 --duel-cap（默认 3.0）截断后才计入 combined",
+  "duel150": {
+    "MongolEmpire": 25.86,
+    "Sheng Tang": 1.12,
+    "Ethiopia": 1.18,
+    "Songhai": 0.89,
+    "Qindynasty": 1.32,
+    "Late Tang": 3.5,
+    "Persia": 1.42,
+    "Greece": 1.39,
+    "Egypt": 1.55,
+    "India": 1.26,
+    "Sweden": 0.33,
+    "Babylon": 1.62
+  }
+}

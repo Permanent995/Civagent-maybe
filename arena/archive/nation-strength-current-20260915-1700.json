@@ -1,0 +1,805 @@
+{
+  "as_of": "2026-09-15",
+  "generatedBy": "arena/nation_strength.py",
+  "formula": "主榜=均名次（混战/mk 分列，duel150 默认不计入）",
+  "rankingAxis": "meanPlacement",
+  "requireComplete": true,
+  "duelCap": 3.0,
+  "includeDuel": false,
+  "mkMode": "checkpoints",
+  "zeroAsMissing": false,
+  "normalization": "median",
+  "weightSet": "hand",
+  "sources": {
+    "混战": "arena/index.jsonl 里 kind∈['rotation'] 的局（本图，不含旧图先验）",
+    "mk": "roster-mk*.json 指定的补测局（按文明集合匹配 stats；聚合模式=checkpoints）",
+    "duel150": "默认不进主榜；--include-duel 才附录"
+  },
+  "notes": [
+    "主榜 = 均名次（越小越好）。势与征服只做并列诊断，不叠进总分。",
+    "duel150 是孤儿列（源数据已丢失），默认不计。",
+    "按 --maps / --mods-filter 分集，禁止不同图混表。"
+  ],
+  "nations": [
+    {
+      "nation": "Inca",
+      "混战": 2.9751,
+      "mk": 0.9002,
+      "meanPlacement": 1.0,
+      "survivalRate": 1.0,
+      "captured": 4,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.9376,
+      "combined": 1.9376,
+      "combinedNoDuel": 1.9376,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 1.9376,
+      "games": {
+        "混战": 1,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "The Huns",
+      "混战": 2.7819,
+      "mk": 0.9833,
+      "meanPlacement": 1.0,
+      "survivalRate": 1.0,
+      "captured": 6,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.8826,
+      "combined": 1.8826,
+      "combinedNoDuel": 1.8826,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 1.8826,
+      "games": {
+        "混战": 1,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "The Ottomans",
+      "混战": 2.0081,
+      "mk": null,
+      "meanPlacement": 2.0,
+      "survivalRate": 1.0,
+      "captured": 10,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 2.0081,
+      "combined": 2.0081,
+      "combinedNoDuel": 2.0081,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Denmark",
+      "混战": 1.5988,
+      "mk": null,
+      "meanPlacement": 2.0,
+      "survivalRate": 1.0,
+      "captured": 9,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.5988,
+      "combined": 1.5988,
+      "combinedNoDuel": 1.5988,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Japan",
+      "混战": 2.5104,
+      "mk": null,
+      "meanPlacement": 2.5,
+      "survivalRate": 1.0,
+      "captured": 16,
+      "eliminated": 4,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 2.5104,
+      "combined": 2.5104,
+      "combinedNoDuel": 2.5104,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 4,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "MongolEmpire",
+      "混战": 4.5889,
+      "mk": null,
+      "meanPlacement": 2.6,
+      "survivalRate": 1.0,
+      "captured": 136,
+      "eliminated": 13,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 4.5889,
+      "combined": 4.5889,
+      "combinedNoDuel": 4.5889,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 20,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Persia",
+      "混战": 1.4369,
+      "mk": null,
+      "meanPlacement": 2.86,
+      "survivalRate": 1.0,
+      "captured": 38,
+      "eliminated": 9,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.4369,
+      "combined": 1.4369,
+      "combinedNoDuel": 1.4369,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 21,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Germany",
+      "混战": 1.5253,
+      "mk": null,
+      "meanPlacement": 3.0,
+      "survivalRate": 1.0,
+      "captured": 1,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.5253,
+      "combined": 1.5253,
+      "combinedNoDuel": 1.5253,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "The Maya",
+      "混战": 1.5213,
+      "mk": 1.0282,
+      "meanPlacement": 3.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.2748,
+      "combined": 1.2748,
+      "combinedNoDuel": 1.2748,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 1.2748,
+      "games": {
+        "混战": 1,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "Northern Song",
+      "混战": 1.1194,
+      "mk": null,
+      "meanPlacement": 3.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 5,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.1194,
+      "combined": 1.1194,
+      "combinedNoDuel": 1.1194,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Carthage",
+      "混战": 1.0149,
+      "mk": null,
+      "meanPlacement": 3.0,
+      "survivalRate": 1.0,
+      "captured": 1,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0149,
+      "combined": 1.0149,
+      "combinedNoDuel": 1.0149,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Rome",
+      "混战": 1.1745,
+      "mk": null,
+      "meanPlacement": 3.17,
+      "survivalRate": 1.0,
+      "captured": 31,
+      "eliminated": 7,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.1745,
+      "combined": 1.1745,
+      "combinedNoDuel": 1.1745,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 24,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Egypt",
+      "混战": 1.2262,
+      "mk": null,
+      "meanPlacement": 3.21,
+      "survivalRate": 0.895,
+      "captured": 5,
+      "eliminated": 6,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.2262,
+      "combined": 1.2262,
+      "combinedNoDuel": 1.2262,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 19,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "France",
+      "混战": 1.118,
+      "mk": 1.1006,
+      "meanPlacement": 3.23,
+      "survivalRate": 1.0,
+      "captured": 17,
+      "eliminated": 5,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.1093,
+      "combined": 1.1093,
+      "combinedNoDuel": 1.1093,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 1.1093,
+      "games": {
+        "混战": 22,
+        "mk": 2
+      }
+    },
+    {
+      "nation": "Qindynasty",
+      "混战": 1.6025,
+      "mk": null,
+      "meanPlacement": 3.33,
+      "survivalRate": 0.944,
+      "captured": 32,
+      "eliminated": 13,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.6025,
+      "combined": 1.6025,
+      "combinedNoDuel": 1.6025,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 18,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Sweden",
+      "混战": 1.0859,
+      "mk": null,
+      "meanPlacement": 3.33,
+      "survivalRate": 1.0,
+      "captured": 32,
+      "eliminated": 8,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0859,
+      "combined": 1.0859,
+      "combinedNoDuel": 1.0859,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 18,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Sheng Tang",
+      "混战": 1.5847,
+      "mk": null,
+      "meanPlacement": 3.43,
+      "survivalRate": 1.0,
+      "captured": 27,
+      "eliminated": 10,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.5847,
+      "combined": 1.5847,
+      "combinedNoDuel": 1.5847,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 21,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Siam",
+      "混战": 1.0282,
+      "mk": null,
+      "meanPlacement": 3.5,
+      "survivalRate": 0.5,
+      "captured": 1,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0282,
+      "combined": 1.0282,
+      "combinedNoDuel": 1.0282,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Aztecs",
+      "混战": 0.759,
+      "mk": null,
+      "meanPlacement": 3.5,
+      "survivalRate": 0.5,
+      "captured": 4,
+      "eliminated": 3,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.759,
+      "combined": 0.759,
+      "combinedNoDuel": 0.759,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Songhai",
+      "混战": 1.0876,
+      "mk": null,
+      "meanPlacement": 3.52,
+      "survivalRate": 0.957,
+      "captured": 23,
+      "eliminated": 7,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0876,
+      "combined": 1.0876,
+      "combinedNoDuel": 1.0876,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 23,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Late Tang",
+      "混战": 1.2152,
+      "mk": null,
+      "meanPlacement": 3.53,
+      "survivalRate": 0.824,
+      "captured": 15,
+      "eliminated": 10,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.2152,
+      "combined": 1.2152,
+      "combinedNoDuel": 1.2152,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 17,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Ethiopia",
+      "混战": 1.1084,
+      "mk": null,
+      "meanPlacement": 3.53,
+      "survivalRate": 0.765,
+      "captured": 8,
+      "eliminated": 5,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.1084,
+      "combined": 1.1084,
+      "combinedNoDuel": 1.1084,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 17,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Greece",
+      "混战": 0.9666,
+      "mk": null,
+      "meanPlacement": 3.56,
+      "survivalRate": 0.944,
+      "captured": 9,
+      "eliminated": 8,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.9666,
+      "combined": 0.9666,
+      "combinedNoDuel": 0.9666,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 18,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Babylon",
+      "混战": 0.8579,
+      "mk": null,
+      "meanPlacement": 3.65,
+      "survivalRate": 0.941,
+      "captured": 8,
+      "eliminated": 12,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.8579,
+      "combined": 0.8579,
+      "combinedNoDuel": 0.8579,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 17,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Korea",
+      "混战": 0.9382,
+      "mk": 0.9673,
+      "meanPlacement": 3.67,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 3,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.9527,
+      "combined": 0.9527,
+      "combinedNoDuel": 0.9527,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 0.9527,
+      "games": {
+        "混战": 3,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "Russia",
+      "混战": 0.9348,
+      "mk": 1.1138,
+      "meanPlacement": 3.87,
+      "survivalRate": 0.87,
+      "captured": 10,
+      "eliminated": 8,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0243,
+      "combined": 1.0243,
+      "combinedNoDuel": 1.0243,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 1.0243,
+      "games": {
+        "混战": 23,
+        "mk": 2
+      }
+    },
+    {
+      "nation": "Iroquois",
+      "混战": 1.3879,
+      "mk": null,
+      "meanPlacement": 4.0,
+      "survivalRate": 0.667,
+      "captured": 5,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.3879,
+      "combined": 1.3879,
+      "combinedNoDuel": 1.3879,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 3,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Polynesia",
+      "混战": 1.1444,
+      "mk": null,
+      "meanPlacement": 4.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.1444,
+      "combined": 1.1444,
+      "combinedNoDuel": 1.1444,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Austria",
+      "混战": 1.0125,
+      "mk": null,
+      "meanPlacement": 4.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 1.0125,
+      "combined": 1.0125,
+      "combinedNoDuel": 1.0125,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "China",
+      "混战": 0.8906,
+      "mk": null,
+      "meanPlacement": 4.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.8906,
+      "combined": 0.8906,
+      "combinedNoDuel": 0.8906,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "America",
+      "混战": 0.9423,
+      "mk": 1.0023,
+      "meanPlacement": 4.14,
+      "survivalRate": 0.818,
+      "captured": 8,
+      "eliminated": 5,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.9723,
+      "combined": 0.9723,
+      "combinedNoDuel": 0.9723,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 0.9723,
+      "games": {
+        "混战": 22,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "India",
+      "混战": 0.653,
+      "mk": null,
+      "meanPlacement": 4.59,
+      "survivalRate": 0.773,
+      "captured": 1,
+      "eliminated": 5,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.653,
+      "combined": 0.653,
+      "combinedNoDuel": 0.653,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 22,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Spain",
+      "混战": 0.3366,
+      "mk": 1.4811,
+      "meanPlacement": 5.0,
+      "survivalRate": 0.333,
+      "captured": 0,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.9089,
+      "combined": 0.9089,
+      "combinedNoDuel": 0.9089,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 0.9089,
+      "games": {
+        "混战": 3,
+        "mk": 1
+      }
+    },
+    {
+      "nation": "Mongolia",
+      "混战": 0.5926,
+      "mk": null,
+      "meanPlacement": 5.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.5926,
+      "combined": 0.5926,
+      "combinedNoDuel": 0.5926,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 2,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Byzantium",
+      "混战": 0.1565,
+      "mk": null,
+      "meanPlacement": 5.0,
+      "survivalRate": 0.0,
+      "captured": 0,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.1565,
+      "combined": 0.1565,
+      "combinedNoDuel": 0.1565,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Arabia",
+      "混战": 0.2541,
+      "mk": 0.6875,
+      "meanPlacement": 6.0,
+      "survivalRate": 0.0,
+      "captured": 0,
+      "eliminated": 2,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.4708,
+      "combined": 0.4708,
+      "combinedNoDuel": 0.4708,
+      "duelInflation": 0.0,
+      "baseLegacyZero": 0.4708,
+      "games": {
+        "混战": 1,
+        "mk": 2
+      }
+    },
+    {
+      "nation": "England",
+      "混战": 0.2779,
+      "mk": null,
+      "meanPlacement": 6.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.2779,
+      "combined": 0.2779,
+      "combinedNoDuel": 0.2779,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "The Netherlands",
+      "混战": 0.2,
+      "mk": null,
+      "meanPlacement": 6.0,
+      "survivalRate": 1.0,
+      "captured": 0,
+      "eliminated": 0,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.2,
+      "combined": 0.2,
+      "combinedNoDuel": 0.2,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    },
+    {
+      "nation": "Celts",
+      "混战": 0.0916,
+      "mk": null,
+      "meanPlacement": 6.0,
+      "survivalRate": 0.0,
+      "captured": 0,
+      "eliminated": 1,
+      "duel150": null,
+      "duel150Raw": null,
+      "base": 0.0916,
+      "combined": 0.0916,
+      "combinedNoDuel": 0.0916,
+      "duelInflation": 0.0,
+      "baseLegacyZero": null,
+      "games": {
+        "混战": 1,
+        "mk": 0
+      }
+    }
+  ]
+}

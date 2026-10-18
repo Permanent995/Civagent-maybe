@@ -1,0 +1,264 @@
+[
+  {
+    "nation": "MongolEmpire",
+    "file": "arena-stats-9f8eb702.jsonl",
+    "checkpoints": {
+      "50": 1.35,
+      "100": 1.52,
+      "150": 25.86
+    },
+    "final": {
+      "turn": 150,
+      "gold": 694,
+      "sciencePerTurn": 1967,
+      "techs": 53,
+      "cities": 31,
+      "population": 449,
+      "wonders": 16,
+      "militaryMight": 1229,
+      "capturedCities": 9,
+      "cultureStored": 1079,
+      "faith": 779
+    }
+  },
+  {
+    "nation": "Late Tang (修复后重测)",
+    "file": "arena-stats-a7048089.jsonl",
+    "checkpoints": {
+      "50": 1.46,
+      "100": 2.59,
+      "150": 3.5
+    },
+    "final": {
+      "turn": 150,
+      "gold": 851,
+      "sciencePerTurn": 1260,
+      "techs": 54,
+      "cities": 21,
+      "population": 265,
+      "wonders": 14,
+      "militaryMight": 325,
+      "capturedCities": 0
+    }
+  },
+  {
+    "nation": "Babylon",
+    "file": "arena-stats-a024298b.jsonl",
+    "checkpoints": {
+      "50": 1.22,
+      "100": 1.43,
+      "150": 1.62
+    },
+    "final": {
+      "turn": 150,
+      "gold": 957,
+      "sciencePerTurn": 839,
+      "techs": 56,
+      "cities": 6,
+      "population": 132,
+      "wonders": 10,
+      "militaryMight": 5,
+      "capturedCities": 0,
+      "cultureStored": 1193,
+      "faith": 642
+    }
+  },
+  {
+    "nation": "Egypt",
+    "file": "arena-stats-cdead85d.jsonl",
+    "checkpoints": {
+      "50": 1.02,
+      "100": 1.09,
+      "150": 1.55
+    },
+    "final": {
+      "turn": 150,
+      "gold": 709,
+      "sciencePerTurn": 461,
+      "techs": 45,
+      "cities": 5,
+      "population": 105,
+      "wonders": 8,
+      "militaryMight": 21,
+      "capturedCities": 0,
+      "cultureStored": 1020,
+      "faith": 320
+    }
+  },
+  {
+    "nation": "Persia",
+    "file": "arena-stats-2a8ebd62.jsonl",
+    "checkpoints": {
+      "50": 0.88,
+      "100": 1.04,
+      "150": 1.42
+    },
+    "final": {
+      "turn": 150,
+      "gold": 2420,
+      "sciencePerTurn": 395,
+      "techs": 45,
+      "cities": 6,
+      "population": 126,
+      "wonders": 7,
+      "militaryMight": 95,
+      "capturedCities": 0,
+      "cultureStored": 830,
+      "faith": 473
+    }
+  },
+  {
+    "nation": "Greece",
+    "file": "arena-stats-96b8aaa1.jsonl",
+    "checkpoints": {
+      "50": 0.75,
+      "100": 0.66,
+      "150": 1.39
+    },
+    "final": {
+      "turn": 150,
+      "gold": 510,
+      "sciencePerTurn": 285,
+      "techs": 40,
+      "cities": 8,
+      "population": 95,
+      "wonders": 16,
+      "militaryMight": 108,
+      "capturedCities": 0,
+      "cultureStored": 1272,
+      "faith": 68
+    }
+  },
+  {
+    "nation": "Qindynasty",
+    "file": "arena-stats-cc095842.jsonl",
+    "checkpoints": {
+      "50": 0.85,
+      "100": 0.83,
+      "150": 1.32
+    },
+    "final": {
+      "turn": 150,
+      "gold": 1375,
+      "sciencePerTurn": 1219,
+      "techs": 59,
+      "cities": 8,
+      "population": 200,
+      "wonders": 8,
+      "militaryMight": 201,
+      "capturedCities": 0,
+      "cultureStored": 2678,
+      "faith": 675
+    }
+  },
+  {
+    "nation": "India",
+    "file": "arena-stats-8e4d5bb7.jsonl",
+    "checkpoints": {
+      "50": 0.85,
+      "100": 1.39,
+      "150": 1.26
+    },
+    "final": {
+      "turn": 150,
+      "gold": 795,
+      "sciencePerTurn": 838,
+      "techs": 54,
+      "cities": 6,
+      "population": 142,
+      "wonders": 10,
+      "militaryMight": 21,
+      "capturedCities": 0,
+      "cultureStored": 1332,
+      "faith": 799
+    }
+  },
+  {
+    "nation": "Ethiopia",
+    "file": "arena-stats-f77726d4.jsonl",
+    "checkpoints": {
+      "50": 0.8,
+      "100": 1.16,
+      "150": 1.18
+    },
+    "final": {
+      "turn": 150,
+      "gold": 2795,
+      "sciencePerTurn": 637,
+      "techs": 49,
+      "cities": 6,
+      "population": 120,
+      "wonders": 14,
+      "militaryMight": 244,
+      "capturedCities": 0,
+      "cultureStored": 902,
+      "faith": 191
+    }
+  },
+  {
+    "nation": "Sheng Tang",
+    "file": "arena-stats-bc79524a.jsonl",
+    "checkpoints": {
+      "50": 0.75,
+      "100": 0.62,
+      "150": 1.12
+    },
+    "final": {
+      "turn": 150,
+      "gold": 4856,
+      "sciencePerTurn": 364,
+      "techs": 41,
+      "cities": 15,
+      "population": 120,
+      "wonders": 3,
+      "militaryMight": 249,
+      "capturedCities": 0,
+      "cultureStored": 2503,
+      "faith": 565
+    }
+  },
+  {
+    "nation": "Songhai",
+    "file": "arena-stats-60cdc171.jsonl",
+    "checkpoints": {
+      "50": 0.8,
+      "100": 0.66,
+      "150": 0.89
+    },
+    "final": {
+      "turn": 150,
+      "gold": 1063,
+      "sciencePerTurn": 286,
+      "techs": 38,
+      "cities": 6,
+      "population": 98,
+      "wonders": 6,
+      "militaryMight": 111,
+      "capturedCities": 0,
+      "cultureStored": 796,
+      "faith": 334
+    }
+  },
+  {
+    "nation": "Sweden",
+    "file": "arena-stats-aac69fb7.jsonl",
+    "checkpoints": {
+      "50": 0.68,
+      "100": 0.33,
+      "150": 0.33
+    },
+    "final": {
+      "turn": 150,
+      "gold": -1699,
+      "sciencePerTurn": 118,
+      "techs": 31,
+      "cities": 6,
+      "population": 57,
+      "wonders": 9,
+      "militaryMight": 0,
+      "capturedCities": 0,
+      "cultureStored": 667,
+      "faith": 228
+    }
+  }
+]

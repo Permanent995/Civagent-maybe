@@ -1,0 +1,18 @@
+*__pycache__*
+.idea/
+site/
+.DS_Store
+.env
+config.local.yaml
+*.log
+
+# local runtime data (real chat logs / memory sidecars) - never commit
+deployment/data/*/
+# large upstream artefact (CivAgent fuxi 4.8.17 reference build)
+unciv-windows64.rar
+# crash-report paste dumps
+.pideck-paste/
+config.yaml
+
+# transient rotation logs (not project data)
+arena/logs/

@@ -1,0 +1,14 @@
+{
+  "_what": "信仰型国家名单（自动从规则集判定，可手工编辑）",
+  "_rule": "国家 uniques 或 uniqueTo 特色建筑/改良/单位里出现『信仰产出』写法（[+N Faith] / Faith from / +N% Faith）或 faith 正数值，且不是『宗教启用时才可用』这类条件句",
+  "_multiplier": 2.0,
+  "nations": [
+    "Celts",
+    "Egypt",
+    "Ethiopia",
+    "MongolEmpire",
+    "Qindynasty",
+    "Songhai",
+    "The Maya"
+  ]
+}

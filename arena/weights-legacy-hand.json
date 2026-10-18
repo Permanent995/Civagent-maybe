@@ -1,0 +1,15 @@
+{
+  "_what": "2026-09-14 之前商定的手写权重（历史榜单都是用这套算的）",
+  "_why": "奇观 30→20、军力 10→15、科技 4→14 之后，想复现旧榜/与旧文件 --compare 就得指定这套",
+  "_usage": "python arena/report.py --weights arena/weights-legacy-hand.json   或 nation_strength.py --weights ...",
+  "weights": {
+    "population": 8.0,
+    "cities": 8.0,
+    "militaryMight": 10.0,
+    "wonders": 30.0,
+    "techs": 4.0,
+    "cultureStored": 0.5,
+    "faith": 0.5,
+    "engineScore": 0.5
+  }
+}

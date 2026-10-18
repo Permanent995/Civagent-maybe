@@ -1,0 +1,182 @@
+[
+  {
+    "nation": "Ethiopia",
+    "stats": "arena-stats-27136989.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 344,
+        "rome_power": 322,
+        "ratio": 1.07
+      },
+      "100": {
+        "power": 700,
+        "rome_power": 498,
+        "ratio": 1.41
+      },
+      "150": {
+        "power": 1162,
+        "rome_power": 702,
+        "ratio": 1.66
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 552,
+      "techs": 47,
+      "cities": 5,
+      "population": 129,
+      "militaryMight": 21,
+      "captured": 0
+    }
+  },
+  {
+    "nation": "Qindynasty",
+    "stats": "arena-stats-ca7fd45b.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 278,
+        "rome_power": 378,
+        "ratio": 0.73
+      },
+      "100": {
+        "power": 828,
+        "rome_power": 896,
+        "ratio": 0.92
+      },
+      "150": {
+        "power": 1580,
+        "rome_power": 1486,
+        "ratio": 1.06
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 575,
+      "techs": 58,
+      "cities": 8,
+      "population": 186,
+      "militaryMight": 111,
+      "captured": 0
+    }
+  },
+  {
+    "nation": "MongolEmpire",
+    "stats": "arena-stats-c3854be5.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 320,
+        "rome_power": 368,
+        "ratio": 0.87
+      },
+      "100": {
+        "power": 726,
+        "rome_power": 782,
+        "ratio": 0.93
+      },
+      "150": {
+        "power": 1222,
+        "rome_power": 1268,
+        "ratio": 0.96
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 1605,
+      "techs": 48,
+      "cities": 8,
+      "population": 112,
+      "militaryMight": 139,
+      "captured": 0
+    }
+  },
+  {
+    "nation": "Sheng Tang",
+    "stats": "arena-stats-4b4c6059.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 308,
+        "rome_power": 370,
+        "ratio": 0.83
+      },
+      "100": {
+        "power": 921,
+        "rome_power": 845,
+        "ratio": 1.09
+      },
+      "150": {
+        "power": 1651,
+        "rome_power": 1792,
+        "ratio": 0.92
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 1277,
+      "techs": 41,
+      "cities": 20,
+      "population": 158,
+      "militaryMight": 644,
+      "captured": 0
+    }
+  },
+  {
+    "nation": "Babylon",
+    "stats": "arena-stats-f07a8981.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 380,
+        "rome_power": 386,
+        "ratio": 0.98
+      },
+      "100": {
+        "power": 700,
+        "rome_power": 790,
+        "ratio": 0.89
+      },
+      "150": {
+        "power": 1088,
+        "rome_power": 1288,
+        "ratio": 0.84
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 335,
+      "techs": 48,
+      "cities": 6,
+      "population": 95,
+      "militaryMight": 21,
+      "captured": 0
+    }
+  },
+  {
+    "nation": "Late Tang",
+    "stats": "arena-stats-98582eab.jsonl",
+    "checkpoints": {
+      "50": {
+        "power": 49,
+        "rome_power": 344,
+        "ratio": 0.14
+      },
+      "100": {
+        "power": 79,
+        "rome_power": 724,
+        "ratio": 0.11
+      },
+      "150": {
+        "power": 94,
+        "rome_power": 1138,
+        "ratio": 0.08
+      }
+    },
+    "final": {
+      "turn": 150,
+      "gold": 200,
+      "techs": 6,
+      "cities": 0,
+      "population": 0,
+      "militaryMight": 8,
+      "captured": 0
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "games": [
+    {
+      "pair": "Sheng Tang vs MongolEmpire",
+      "seconds": 1800,
+      "tail": [
+        "[arena] turn 216 - Sheng Tang: g8014 c27 p791 | MongolEmpire: g847 c13 p278",
+        "[arena] turn 217 - Sheng Tang: g8032 c28 p815 | MongolEmpire: g952 c12 p263",
+        "[arena] turn 218 - Sheng Tang: g8828 c28 p820 | MongolEmpire: g1021 c12 p268"
+      ]
+    }
+  ]
+}

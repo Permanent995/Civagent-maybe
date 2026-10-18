@@ -1,0 +1,52 @@
+【怎么排的】
+1) 纳入：kind=rotation，可评分 82/82 局（须有 arena-stats；coverage.complete=108）。
+2) 三轴分列，禁止揉成一张神秘总分：
+   主榜 = 均名次（越小越好）。局内名次：存活者按后程势(100/150)排，灭国垫底。
+   势（诊断）= 后程相对势均值（1.0=局内中位）；占城已含在城/人/军里，不再叠征服。
+   征服（诊断）= 净占城 / 灭国 / 存活率。
+3) 跨局：各轴分别算术平均。旧 wrap 先验与 duel150 默认不进主榜。
+4) 排序键：meanPlacement 升序 → survivalRate 降序 → powerRel 降序。
+5) 势的因子权重：手写 HAND_WEIGHTS（scoring.py）
+
+【完整总榜】
+  #1  The Huns       place=1.80  power=4.4118  survive=100%  cap=35  elim=2  games=5  #1s=4
+  #2  Japan          place=2.12  power=2.3065  survive=100%  cap=21  elim=6  games=8  #1s=3
+  #3  Denmark        place=2.40  power=1.4456  survive=100%  cap=19  elim=2  games=5  #1s=2
+  #4  Aztecs         place=2.43  power=1.6406  survive=86%  cap=26  elim=8  games=7  #1s=4
+  #5  MongolEmpire   place=2.50  power=4.4004  survive=100%  cap=142  elim=16  games=22  #1s=9
+  #6  Persia         place=2.96  power=1.3861  survive=100%  cap=38  elim=11  games=23  #1s=9
+  #7  Austria        place=3.00  power=1.4252  survive=100%  cap=19  elim=7  games=6  #1s=1
+  #8  China          place=3.00  power=1.1985  survive=100%  cap=1  elim=2  games=5  #1s=1
+  #9  The Ottomans   place=3.00  power=1.3544  survive=86%  cap=23  elim=5  games=7  #1s=0
+  #10 Rome           place=3.07  power=1.2382  survive=100%  cap=44  elim=9  games=27  #1s=4
+  #11 France         place=3.17  power=1.1503  survive=100%  cap=19  elim=8  games=23  #1s=5
+  #12 Qindynasty     place=3.25  power=1.6621  survive=95%  cap=42  elim=16  games=20  #1s=2
+  #13 Sweden         place=3.30  power=1.1673  survive=100%  cap=36  elim=9  games=20  #1s=3
+  #14 Egypt          place=3.35  power=1.1786  survive=85%  cap=5  elim=6  games=20  #1s=4
+  #15 Inca           place=3.40  power=1.3076  survive=80%  cap=7  elim=5  games=5  #1s=1
+  #16 Greece         place=3.42  power=1.0247  survive=95%  cap=11  elim=11  games=19  #1s=2
+  #17 Late Tang      place=3.47  power=1.2557  survive=84%  cap=16  elim=13  games=19  #1s=4
+  #18 Mongolia       place=3.50  power=1.2322  survive=100%  cap=3  elim=3  games=6  #1s=2
+  #19 Polynesia      place=3.50  power=1.2029  survive=88%  cap=6  elim=3  games=8  #1s=0
+  #20 Arabia         place=3.50  power=1.2468  survive=67%  cap=2  elim=7  games=6  #1s=1
+  #21 Sheng Tang     place=3.52  power=1.5104  survive=100%  cap=27  elim=11  games=23  #1s=2
+  #22 Northern Song  place=3.57  power=1.1937  survive=86%  cap=15  elim=8  games=7  #1s=1
+  #23 Babylon        place=3.58  power=0.9001  survive=95%  cap=11  elim=14  games=19  #1s=2
+  #24 Ethiopia       place=3.61  power=1.0631  survive=78%  cap=8  elim=6  games=18  #1s=3
+  #25 Songhai        place=3.68  power=1.0244  survive=92%  cap=23  elim=7  games=25  #1s=2
+  #26 England        place=3.80  power=0.8285  survive=100%  cap=1  elim=2  games=5  #1s=1
+  #27 Russia         place=3.80  power=1.0064  survive=88%  cap=13  elim=9  games=25  #1s=5
+  #28 Celts          place=3.83  power=0.8124  survive=83%  cap=9  elim=4  games=6  #1s=0
+  #29 Korea          place=3.86  power=0.9314  survive=100%  cap=4  elim=5  games=7  #1s=0
+  #30 Siam           place=3.86  power=0.8407  survive=86%  cap=1  elim=3  games=7  #1s=0
+  #31 Spain          place=3.86  power=1.6954  survive=71%  cap=12  elim=4  games=7  #1s=1
+  #32 Carthage       place=4.17  power=0.6653  survive=100%  cap=1  elim=6  games=6  #1s=0
+  #33 The Maya       place=4.20  power=0.8725  survive=80%  cap=1  elim=1  games=5  #1s=0
+  #34 America        place=4.25  power=0.8813  survive=75%  cap=8  elim=6  games=24  #1s=3
+  #35 Iroquois       place=4.29  power=1.0049  survive=71%  cap=6  elim=5  games=7  #1s=0
+  #36 Germany        place=4.40  power=0.8942  survive=80%  cap=9  elim=4  games=5  #1s=0
+  #37 India          place=4.57  power=0.6375  survive=74%  cap=1  elim=7  games=23  #1s=1
+  #38 The Netherlands place=5.17  power=0.5288  survive=83%  cap=0  elim=2  games=6  #1s=0
+  #39 Byzantium      place=5.50  power=0.3355  survive=17%  cap=0  elim=2  games=6  #1s=0
+
+头（均名次最好）：The Huns  |  尾：Byzantium

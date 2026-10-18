@@ -1,0 +1,421 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civagent/protocol/observation_slice.v2",
+  "title": "ObservationSlice v2 (W2)",
+  "description": "What the game sends to the Python brain: one civ's fog-of-war trimmed view. Source of truth: Unciv-Source core/src/com/unciv/logic/civagent/ObservationSlicer.kt. v2 adds stock+delta pairs per subject (决策 22), city rows, the RC faction balance, 6 stat fields + rank + vsSelf for known civs (zeroed when gameParameters.hideOtherCivilizationStats is set), and era/eraNumber for period-accurate speech.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "gameId",
+    "civID",
+    "turn",
+    "gold",
+    "goldPerTurn",
+    "happiness",
+    "resources",
+    "knownCivs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "gameId": {
+      "type": "string"
+    },
+    "civID": {
+      "type": "string"
+    },
+    "turn": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gold": {
+      "type": "integer",
+      "description": "Stock (treasury)"
+    },
+    "goldPerTurn": {
+      "type": "number",
+      "description": "Delta paired with gold"
+    },
+    "happiness": {
+      "type": "integer"
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "resourceKinds": {
+      "type": "object",
+      "description": "M-content-1: resource name -> luxury/strategic/bonus, straight from the loaded ruleset (mod-safe trade decisions)",
+      "additionalProperties": {
+        "enum": [
+          "luxury",
+          "strategic",
+          "bonus"
+        ]
+      }
+    },
+    "knownCivs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "civID",
+          "relationship",
+          "atWar"
+        ],
+        "properties": {
+          "civID": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "atWar": {
+            "type": "boolean"
+          },
+          "gold": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "null when hideOtherCivilizationStats"
+          },
+          "population": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "cities": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "technologies": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "force": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "getMilitaryMight()"
+          },
+          "score": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "rank": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Rank by score among alive major civs"
+          },
+          "vsSelf": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "their score vs ours, e.g. \"1.8x\""
+          },
+          "era": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Known civ era when stats are visible"
+          },
+          "agreements": {
+            "type": "array",
+            "description": "Standing deals with this civ (DiplomacyManager.trades), engine-rendered",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hasOpenBorders": {
+            "type": "boolean"
+          },
+          "modifiers": {
+            "type": "array",
+            "description": "Accumulated relation/trade statistics (DiplomaticModifiers), text + value",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resources": {
+            "type": "object",
+            "description": "Their visible stock (same fog gate as the other stats)",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          },
+          "proximity": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Neighbors|Close|Far|Distant|None"
+          },
+          "sameContinent": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "landReachable": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Coarse: same continent + Neighbors/Close"
+          },
+          "borderThreat": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "none|low|medium|high from visible units near our cities"
+          }
+        }
+      }
+    },
+    "personality": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "science": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "description": "Science invested per in-progress tech (stock), paired with sciencePerTurn"
+    },
+    "sciencePerTurn": {
+      "type": "number"
+    },
+    "cultureStored": {
+      "type": "integer",
+      "description": "Stock, paired with culturePerTurn"
+    },
+    "culturePerTurn": {
+      "type": "number"
+    },
+    "cities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "population",
+          "foodStored",
+          "foodPerTurn",
+          "productionPerTurn",
+          "constructionProgress",
+          "currentConstruction"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "population": {
+            "type": "integer"
+          },
+          "foodStored": {
+            "type": "integer",
+            "description": "Granary stock, paired with foodPerTurn"
+          },
+          "foodPerTurn": {
+            "type": "number"
+          },
+          "productionPerTurn": {
+            "type": "number",
+            "description": "Paired with constructionProgress"
+          },
+          "constructionProgress": {
+            "type": "integer"
+          },
+          "currentConstruction": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "factionBalance": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "RC 势力平衡: per-city war/peace faction scores, always present for the acting civ",
+      "properties": {
+        "warTotal": {
+          "type": "integer"
+        },
+        "peaceTotal": {
+          "type": "integer"
+        },
+        "cities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "faction",
+              "score"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "faction": {
+                "enum": [
+                  "WAR",
+                  "PEACE"
+                ]
+              },
+              "score": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "era": {
+      "type": "string",
+      "description": "Acting civ era name from Unciv ruleset, e.g. Classical era"
+    },
+    "eraNumber": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Ruleset era index (Ancient=0 …). Used for period-accurate chat/decision prompts"
+    },
+    "eraCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total eras in the active ruleset; lets the brain normalize eraNumber to a 0..8 tier on modded rulesets (M-mod-0 D3)"
+    },
+    "navyShipCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "True water military units owned by the acting civ"
+    },
+    "borderThreats": {
+      "type": "array",
+      "description": "Visible border pressure buckets only — never unit coordinates",
+      "items": {
+        "type": "object",
+        "required": [
+          "civID",
+          "level",
+          "visibleEnemyBucket"
+        ],
+        "properties": {
+          "civID": {
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "visibleEnemyBucket": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nearestHostileCity": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Nearest explored city of a civ at war with us"
+    },
+    "incomingTradeRequests": {
+      "type": "array",
+      "description": "Trade offers other civs sent us and we have not answered (civ.tradeRequests)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recentAgentActions": {
+      "type": "array",
+      "description": "What this agent did recently, engine-reported incl. refusals (Unciv keeps no notifications for AI seats)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ruleset": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "M-content-0: ruleset identity so the brain can tell vanilla from modded and pick a strategy profile",
+      "required": [
+        "name",
+        "isBaseRuleset",
+        "mods",
+        "fingerprint"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "isBaseRuleset": {
+          "type": "boolean"
+        },
+        "mods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fingerprint": {
+          "type": "string"
+        }
+      }
+    },
+    "newEvents": {
+      "type": "array",
+      "default": [],
+      "description": "P-memory event stream: engine notifications new since the previous decision (already fog-filtered - they are what this civ itself was told). Stored by the brain as engine_event records and retrieved by select_memory().",
+      "items": {
+        "type": "object",
+        "required": [
+          "turn",
+          "category",
+          "text"
+        ],
+        "properties": {
+          "turn": {
+            "type": "integer"
+          },
+          "category": {
+            "type": "string",
+            "description": "Engine NotificationCategory: War/Trade/Diplomacy/General/..."
+          },
+          "text": {
+            "type": "string",
+            "description": "Untranslated engine notification text"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

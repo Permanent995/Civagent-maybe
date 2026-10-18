@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civagent/protocol/intent.v1",
+  "title": "Intent v1 (frozen at W1, wired to truth at W2)",
+  "description": "What the brain may answer with on POST /v1/decision. Structured intents only - never CLI strings (EXECUTION.md frozen contract). Whitelist = the human-player action space; addstat / tile edits / friendship-value edits are forbidden. W1 middleware executes only declare_war; the rest are reserved until W2/W4.",
+  "type": "object",
+  "required": [
+    "type",
+    "actorCivID"
+  ],
+  "properties": {
+    "type": {
+      "enum": [
+        "declare_war",
+        "make_peace",
+        "propose_trade",
+        "buy_luxury",
+        "open_border",
+        "research_agreement",
+        "seek_peace",
+        "form_ally",
+        "mutual_defense",
+        "share_intel",
+        "denounce",
+        "chat"
+      ]
+    },
+    "actorCivID": {
+      "type": "string",
+      "description": "Must be a registered CivAgent seat; gateway rejects human seats"
+    },
+    "targetCivID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "chatText": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Diplomatic line accompanying the intent; W3 chat flow reuses this"
+    },
+    "trade": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Required for propose_trade / buy_luxury. One open trade per civ pair (W4 slot). Amounts validated by the engine: amount <= treasury; money never appears from nowhere.",
+      "properties": {
+        "ourOffers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tradeOffer"
+          }
+        },
+        "theirOffers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tradeOffer"
+          }
+        }
+      }
+    },
+    "intel": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Required for share_intel (W5): text claim first; never writes into fog or tech tree",
+      "properties": {
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "W5.7 verification hook: war | peace | other; only war/peace claims auto-verify"
+        },
+        "aboutCiv": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Which civ the claim is about (verification observes this civ's state)"
+        }
+      },
+      "required": [
+        "claim"
+      ]
+    },
+    "warFocus": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional strategic hint for declare_war; downgraded when target not land-reachable without navy"
+    }
+  },
+  "$defs": {
+    "tradeOffer": {
+      "type": "object",
+      "required": [
+        "type",
+        "amount"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "e.g. Gold, Gold_Per_Turn, Luxury, Strategic, Open_Borders, Embassy"
+        },
+        "amount": {
+          "type": "number",
+          "minimum": 0
+        },
+        "ref": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "resource / building name when applicable"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
